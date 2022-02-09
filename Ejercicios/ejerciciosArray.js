@@ -55,3 +55,16 @@
 // // Por rendimiento habría que hacerlo al revés. Primero filtrar y luego pasarlo a mayúscula.
 
 // console.log("Los meses con 7 letras son: ", final);
+
+
+
+const valores = [20, 2, 58, 35, 13];
+let valor = 0;
+
+for (let i = 0; i < valores.length; i++){
+    if (valores[i] > valor){
+        valor = valores[i];
+    }
+};
+
+console.log("El número mayor es " + valor);
